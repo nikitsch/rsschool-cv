@@ -1,0 +1,166 @@
+/* *,*:before,*:after{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+} */
+
+@media (max-width: 850px){
+  .site-nav {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px){
+  .code-examlpes {
+    flex-direction: column;
+  }
+
+  br {
+    display: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Навигация */
+body {
+  box-sizing: border-box;
+  overflow: auto;
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  height: 55px;
+  background: #f34040;
+}
+
+ul {
+  list-style-type: none;
+  margin: inherit;
+  padding: inherit;
+}
+
+.navigation {
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+nav {
+  height: 100%;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+li {
+  display: inline;
+}
+
+.section-link {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Фото и надпись */
+.themain {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.contact {
+  border: 1px dashed #f34040;
+  margin-left: 10px;
+}
+.contact:hover {
+  border: 1px solid #f34040;
+}
+
+.themain-link {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/* Cекции */
+.sections {
+  margin-bottom: 50px;
+}
+
+.line-visiting {
+  border-bottom: 3px solid #f34040;
+}
+
+.code-examlpes {
+  display: flex;
+  align-content: flex-start;
+  gap: 20px;
+  align-items: stretch;
+  justify-content: center;
+  margin: 20px 0px 20px;
+}
+
+.code-examlpes li {
+  border: 1px solid #f34040;
+  background-color: #f34040;
+  color: #ffffff;
+}
+
+.project-name {
+  font-size: 20px;
+}
+
+.title-des {
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.projects-img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+h4 {
+  margin-top: 15px;
+}
+
+footer {
+  height: 55px;
+  background: #f34040;
+}
+
+.year {
+  font-family: 'Courier', monospace;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media (max-width: 650px){
+  .site-nav {
+    font-size: 12px;
+  }
+}
