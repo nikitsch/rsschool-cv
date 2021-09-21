@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kamiakevich Mikita CV</title>
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav>
+                <ul class="navigation">
+                    <li class="section-item"><a href="#about-me" class="section-link site-nav">About Me</a></li>
+                    <li class="section-item"><a href="#skills" class="section-link site-nav">Skills</a></li>
+                    <li class="section-item"><a href="#experience" class="section-link site-nav">Experience</a></li>
+                    <li class="section-item"><a href="#education" class="section-link site-nav">Education</a></li>
+                    <li class="section-item"><a href="#english-level" class="section-link site-nav">English Level</a></li>
+                    <li class="section-item"><a href="#sample-code" class="section-link site-nav">Sample Code</a></li>
+                    <li class="section-item"><a href="#projects" class="section-link site-nav">Projects</a></li>
+                </ul>
+            </nav>
+		</header>
+		<main>
+			<section class="themain">
+				<img src="anonymous.png" alt="ava"  width="300" height="300">
+				<h1>Mikita Kamiakevich</h1>
+				<h3>Power engineer from Minsk, Belarus</h3>
+				<nav>
+                    <ul>
+						<li class="section-item  contact"><a target="_blank" class="themain-link" href="https://join.skype.com/invite/cqJRBV6NUdCP">Skype</a></li>
+                        <li class="section-item  contact"><a target="_blank" class="themain-link" href="mailto:nikitsch5@gmail.com">Gmail</a></li>
+                        <li class="section-item  contact"><a target="_blank" class="themain-link" href="https://github.com/nikitsch">GitHub</a></li>
+                    </ul>
+                </nav>
+			</section>
+			<section id="about-me" class="sections">
+				<h2 class="name-sec">About me</h2>
+				<div class="line-visiting"></div>
+				<p>"To go to the goal, you need to go first." One philosopher said, I don't remember his name. So for the second time I am trying to conquer this summit called RS School Front-end. I live in Minsk. My homeland is a small town, slightly East of the Alps, Zelva. I came to Minsk following my dream to make this world a better place. In a big city, there are much more opportunities to understand yourself, right?!
+				</p> 
+			</section>
+			<section id="skills" class="sections">
+				<h2 class="name-sec">Skills</h2>
+				<div class="line-visiting"></div>
+				<ul>
+					<li>
+						<p>JavaScript</p>
+					</li>
+					<li>
+						<p>HTML</p>
+					</li>
+					<li>
+						<p>CSS</p>
+					</li>
+				</ul>
+			</section>
+			<section id="experience" class="sections">
+				<h2 class="name-sec">Experience</h2>
+				<div class="line-visiting"></div>
+				<p>As I noted earlier, this is my second attempt at taking these courses. Before that, there were preparatory courses from the RS School. I had no other experience.
+				</p>
+			</section>
+			<section id="education" class="sections">
+				<h2 class="name-sec">Education</h2>
+				<div class="line-visiting"></div>
+				<p>From 2015 to 2020 I studied at BNTU majoring in power supply</p>
+			</section>
+			<section id="english-level" class="sections">
+				<h2 class="name-sec">English Level</h2>
+				<div class="line-visiting"></div>
+				<p>A1</p> 
+			</section>
+			<section id="sample-code">
+				<h2 class="name-sec">Sample Code</h2>
+				<div class="line-visiting"></div>
+				<pre>
+					<code>
+					function revrot(str, sz) {
+						if (sz = 0 || sz > str.length) {return ''}
+						let rotate  = x => x.slice(1) + x.slice(0, 1)
+						let reverse = x => x.split('').reverse().join('')
+						let summ = y => y.split('')
+							.reduce((k, l) => k + l ** 3, 0)
+						return str.match(new RegExp('.{' + sz + '}', 'g'))
+							.map(y => summ(y) % 2 ? rotate(y) : reverse(y))
+							.join('')
+					}
+					</code>
+				</pre>
+			</section>
+			<section id="projects">
+				<h2 class="name-sec">Projects</h2>
+				<div class="line-visiting"></div>
+				<ul class="code-examlpes">
+					<li>
+						<a target="_blank" href="https://rolling-scopes-school.github.io/nikitsch-JSFEPRESCHOOL/drum-kit/">
+							<img class="projects-img" src="drum.jpg" alt="Drum Kit">
+						</a>
+						<h4 class="project-name title-des">Drum Kit</h4>
+						<h5 class="project-name description">Drum Kit is a music application in which you can play sounds by<br> pressing the keys on the keyboard. Each key has its own sound.<br> Key skills: working with DOM, working with audio.</h5>
+					</li>
+					<li>
+						<a target="_blank" href="https://rolling-scopes-school.github.io/nikitsch-JSFEPRESCHOOL/custom-video-player/">
+							<img class="projects-img" src="player.jpg" alt="Video Player">
+						</a>
+						<h4 class="project-name title-des">Сustom Video Player</h4>
+						<h5 class="project-name description">Custom Video Player is a video player that is executed in accordance<br> with the designer's intention and the appearance ofwhich does not depend on the browser or device used.<br> Key skills: working with DOM, working with video.</h5>
+					</li>
+				</ul>
+			</section>
+		</main>
+		<footer>
+			<ul class="navigation">
+				<li class="section-item"><a target="_blank" href="https://rs.school/js/" class="section-link"><img src="https://rs.school/images/rs_school_js.svg" alt="rs" width="50" height="30"></a></li>
+				<li class="section-item"><a class="section-link year">2021</a></li>
+				<li class="section-item"><a target="_blank" href="https://github.com/" class="section-link"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="github" width="30" height="30"></a></li>
+			</ul>
+		</footer>
+	</div>
+</body>
+</html>
